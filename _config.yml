@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
+title: Jimmy Li
+email: jimmyli2002@gmail.com
+description: My personal blog
+url: "https://blog.jimmyli.us"
 keywords: ["blog", "jekyll"]
 
 #
@@ -14,7 +14,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          America/Los_Angeles
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,22 +33,22 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: Jimmy Li
+  avatar: patter-profile.png
+  job: ""
+  bio: "Web Developer, CTFs and Infosec with Troy and RedPwn"
+  email: jimmyli2002@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: jimfutsu
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-154870924-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: jimmyl02
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
