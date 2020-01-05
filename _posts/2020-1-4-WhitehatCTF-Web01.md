@@ -1,12 +1,12 @@
 ---
 layout: post
 title: WhitehatCTF - Web01
-excerpt: "I did WhitehatCTF with DiceGang this weekend and focused on the webs. I thought a couple of them were pretty cool but would have been much better with source. In my opinion, sourceless web ctf challenges should rarely exist."
+excerpt: "I did WhitehatCTF with DiceGang this weekend and focused on the webs. We did pretty well and placed second in the quals right after perfect blue. I thought a couple of them were pretty cool but would have been much better with source. In my opinion, sourceless web ctf challenges should rarely exist."
 categories: [Writeups, WhitehatCTF'19]
 tags: [web]
 ---
 
-I did WhitehatCTF with DiceGang this weekend and focused on the webs. I thought a couple of them were pretty cool but would have been much better with source. In my opinion, sourceless web ctf challenges should rarely exist.
+I did WhitehatCTF with DiceGang this weekend and focused on the webs. We did pretty well and placed second in the quals right after perfect blue. I thought a couple of them were pretty cool but would have been much better with source. In my opinion, sourceless web ctf challenges should rarely exist.
 
 #### Web01
 ```
