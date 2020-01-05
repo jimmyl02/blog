@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Title
+title: WhitehatCTF - Web01
 excerpt: "I did WhitehatCTF with DiceGang this weekend and focused on the webs. I thought a couple of them were pretty cool but would have been much better with source. In my opinion, sourceless web ctf challenges should rarely exist."
 categories: [Writeups, WhitehatCTF'19]
 tags: [web]
