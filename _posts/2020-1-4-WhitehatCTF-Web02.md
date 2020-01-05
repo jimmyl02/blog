@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Title
-excerpt: ""
+excerpt: "This was the second web challenge we solved in Whitehat I thought this problem was much more interesting than the first."
 categories: [Writeups, WhitehatCTF'19]
 tags: [web]
 ---
