@@ -127,4 +127,5 @@ The final process to get the flag was the following.
 	* `HTTP_HOST` was set to the ip of our server
 	* Featured image was set to `../themes/flag.png`
 		* The `../` was used to get rid of the `/uploads` which was prepended to our URL
-3.  Finally, we could include our uploaded file using the themes argument by visiting `http://52.78.36.66:81/post.php?post_id=VBtLDmQP&theme=flag.png`
+3. Rotate the image, allowing imagemagick to fetch the image from our server and write it in the `themes` folder.
+4.  Finally, we could include our uploaded file using the themes argument by visiting `http://52.78.36.66:81/post.php?post_id=VBtLDmQP&theme=flag.png`
