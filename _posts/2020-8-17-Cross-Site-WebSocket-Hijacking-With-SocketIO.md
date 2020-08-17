@@ -188,7 +188,7 @@ The first defense is to have the WebSocket server check the Origin header. Altho
 
 The second defense is very similar to defenses against CSRF. The developers should add randomized tokens with each request that can only be accessed from the site. Only if the proper token is sent with each WebSocket message is it actually recognized.
 
-With these defenses in mind, it brings up an interesting question. Is socketio using transport mode more secure than using real WebSockets? By default, there is a SOP because the requests are just standard GET requests, not WebSocket connections. However, WebSockets are much easier to use and don't require importing an extra library on the client. This is an interesting question and the costs and benefits are definitely something to think about.
+With these defenses in mind, it brings up an interesting question. Is socketio using polling mode more secure than using real WebSockets? By default, there is a SOP because the requests are just standard GET requests, not WebSocket connections. However, WebSockets are much easier to use and don't require importing an extra library on the client. This is an interesting question and the costs and benefits are definitely something to think about.
 
 #### Conclusion
 
