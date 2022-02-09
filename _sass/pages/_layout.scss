@@ -17,21 +17,22 @@
     width: 100%;
   }
 }
+
+.cover-card-content {
+  @include media-query($small-screen) {
+    border-bottom: rgba(0, 0, 0, 0.1) 0.7mm solid;
+    padding-bottom: 30px;
+  }
+
+  @include media-query($medium-screen) {
+    border-right: rgba(0, 0, 0, 0.1) 0.7mm solid;
+    padding-right: 20px;
+  }
+}
+
 .cover-card {
   color: $text-color;
   padding: 0 30px;
-
-  .cover-card-content {
-    @include media-query($small-screen) {
-      border-bottom: rgba(0, 0, 0, 0.1) 0.7mm solid;
-      padding-bottom: 30px;
-    }
-
-    @include media-query($medium-screen) {
-      border-right: rgba(0, 0, 0, 0.1) 0.7mm solid;
-      padding-right: 20px;
-    }
-  }
 
   .avatar {
     border-radius: 50%;
