@@ -19,7 +19,7 @@
 }
 
 .cover-card-content {
-  @include media-query($small-screen) {
+  @include media-query-between($small-screen, $medium-screen) {
     border-bottom: rgba(0, 0, 0, 0.1) 0.7mm solid;
     padding-bottom: 30px;
   }
