@@ -34,6 +34,12 @@
   }
 }
 
+@mixin media-query-max($device) {
+  @media only screen and (max-width: $device) {
+    @content;
+  }
+}
+
 /**
  * Webkit-style focus
  */
