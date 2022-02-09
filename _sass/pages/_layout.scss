@@ -1,6 +1,6 @@
 /* LAYOUT CSS */
 .cover {
-  background-color: $background-color;
+  // background-color: $background-color;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -20,6 +20,12 @@
 .cover-card {
   color: $text-color;
   padding: 0 30px;
+
+  .cover-card-content {
+    border-right: rgba(0, 0, 0, 0.1) 0.7mm solid;
+    padding-right: 20px;
+  }
+
   .avatar {
     border-radius: 50%;
     width: 100px;
@@ -31,7 +37,7 @@
   }
   .author_name {
     display: block;
-    color: #F36170;
+    color: #f36170;
     font-size: 1.75em;
   }
   .author_job {
@@ -80,10 +86,10 @@
     *display: inline;
     zoom: 1;
     &:after {
-      content: '/';
+      content: "/";
     }
     &:last-child:after {
-      content: '';
+      content: "";
     }
     & a {
       margin-top: 1em;
