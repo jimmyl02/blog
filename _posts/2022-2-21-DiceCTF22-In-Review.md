@@ -1,17 +1,9 @@
 ---
-tags: Blog
----
-
-# DiceCTF22 In Review
-
----
-
 layout: post
 title: DiceCTF 22 In Review
 excerpt: "First blog post in a while! I wanted to do a postmortem of DiceCTF which ran the past weekend (2/4/22-2/6/22) as we did a lot of things things right but still had many things we could improve on. I've also successfully poached gink and asphyxia to add a lot of really insightful technical details around our infrastructure. We've wanted to do an infrastructure write-up for a long time and with all that went on with DiceCTF this felt like the perfect time to do it. In general, this blog post this will be from the perspective of someone handling the logistics and infrastructure side more so than the challenges side. Hopefully this offers an interesting read and some insight into what it takes to organize an event like DiceCTF."
 categories: [Blog]
 tags: [DiceCTF]
-
 ---
 
 ### Introduction
