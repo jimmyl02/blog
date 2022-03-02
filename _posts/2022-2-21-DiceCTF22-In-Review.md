@@ -116,7 +116,7 @@ To communicate between the guest and the actual TCP server, we have a agent in t
 [firecracker]: https://firecracker-microvm.github.io
 [redpwnjail]: https://github.com/redpwn/jail
 
-This section was written by asphyxia and if you have any questions feel free to reach out!
+This section was written by asphyxia and if you have any questions, feel free to reach out!
 
 #### Cache On The Side
 
@@ -124,9 +124,9 @@ Cache on the side was an awesome challenge around cache side channels. Due to th
 
 As you can probably tell, this involves setting up infrastructure outside of our standard challenge cluster so it caused some pain points. One main issue was there was so much to handle outside of this challenge that none of our infra team had the bandwidth to attend to it at the beginning. After the initial wave of challenge releases we began investigating why it wasn't working and starting fixes.
 
-First we had to setup a new service account for the backend and frontend instances to access the pub/sub queue. We also had to create a bucket to store the results as well as the N2 challenge instance. One small detail we missed when creating the box was to use Ubuntu instead of Debian which waste a few hours. After that, setting up the N2 challenge instance to receive traffic worked well as it was listening to the pub/sub queue. On the frontend side we had to modify our challenge deployment infrastructure to support workload identities. This is GKE way of allowing kubernetes pods to authorize as service accounts. Finally with this all together we were able to confirm the challenge worked.
+First, we had to setup a new service account for the backend and frontend instances to access the pub/sub queue. We also had to create a bucket to store the results as well as the N2 challenge instance. One small detail we missed when creating the box was to use Ubuntu instead of Debian which wasted a few hours. After that, setting up the N2 challenge instance to receive traffic worked well as it was listening to the pub/sub queue. On the frontend side we had to modify our challenge deployment infrastructure to support workload identities. This is GKE's way of allowing kubernetes pods to authorize as service accounts. Finally with this all together we were able to confirm the challenge worked.
 
-Despite this sounding easy in hindsight, it took a lot of effort to fix small mistakes as well as balancing this with all the other things going on to make sure the CTF stayed afloat.
+Despite sounding easy in hindsight, it took a lot of effort to fix small mistakes as well as balancing this with all the other things going on to make sure the CTF stayed afloat.
 
 #### Costs
 
@@ -142,4 +142,4 @@ This breakdown was surprising to me at first because it is a lot cheaper than I 
 
 Running a CTF is no easy task and filled with many unexpected challenges. Even though we have previous experience running CTFs with high traffic, DiceCTF 2022 still brought many unexpected difficulties. I have definitely learned a lot on both a technical side as well as how to deal with the logistics of a large scale event. Furthermore, I'm really grateful to be able to have people like ginkoid and asphyxia around who are able to help me improve my technical skills around infrastructure. A lot of the things I worked on involved asking them a ton of questions.
 
-Overall, the goal of this post is to give everyone including competitors, organizers, and spectators, a look at what running DiceCTF and a CTF in general looks like. It is a lot of work but the reward of seeing others have a good time and solve these challenges is unparalleled. Another cool benefit is getting to see competitors creative approaches to challenges which even resulted in a [Traefik 0-day](https://github.com/traefik/traefik/security/advisories/GHSA-hrhx-6h34-j5hc) being discovered during DiceCTF! If you have any questions feel free to reach out and I would be happy to answer!
+Overall, the goal of this post is to give everyone including competitors, organizers, and spectators, a look at what running DiceCTF and a CTF in general looks like. It is a lot of work, but the reward of seeing others have a good time and solve these challenges is unparalleled. Another cool benefit is getting to see competitors creative approaches to challenges which even resulted in a [Traefik 0-day](https://github.com/traefik/traefik/security/advisories/GHSA-hrhx-6h34-j5hc) being discovered during DiceCTF! If you have any questions feel free to reach out and I would be happy to answer!
