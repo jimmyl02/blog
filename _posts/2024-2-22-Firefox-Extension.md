@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a Firefox Extension with React, Tailwind, and shadcn-ui
-excerpt: "excerpt here"
+excerpt: "This post provides an overview of building a Firefox extension using React, TailwindCSS, and shadcn-ui components. Frontend development moves fast and this post covers a project which attempts to use the current latest technologies. Throughout this post, we will develop an extension called “eye-break” which allows users to configure a notification that appears on a regular interval. In order to keep the length of this post reasonable, we will skip the introductions of the technologies and assume the reader knows of them; this post will introduce how to use them."
 categories: [Blog]
 tags: [Web Development]
 ---
