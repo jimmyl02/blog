@@ -4,6 +4,7 @@ title: WhitehatCTF - Web02
 excerpt: "This was the second web challenge we solved in Whitehat I thought this problem was much more interesting than the first. "
 categories: [Writeups, WhitehatCTF'19]
 tags: [web]
+redirect_to: https://jimmyli.us/writing/whitehat-ctf-web02
 ---
 
 This was the second web challenge we solved in Whitehat I thought this problem was much more interesting than the first. 

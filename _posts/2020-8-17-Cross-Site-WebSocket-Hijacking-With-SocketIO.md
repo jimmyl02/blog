@@ -4,6 +4,7 @@ title: Cross Site WebSocket Hijacking with socketio
 excerpt: "Cross-Site WebSocket Hijacking or (CSWSH), yes the acronym is absurdly long, is a technique where an attacker can hijack a WebSocket on a targetted site and essentially send and receive messages like the victim. In this blog post, I will specifically explore how this can be done with socketio when the requests are not upgraded to actual WebSockets. In addition to explaining how this attack type works, this post will include a specific writeup for Support Chat,  a CTF problem from HacktivityconCTF."
 categories: [Blog, Writeups, HactivityconCTF'20]
 tags: [web]
+redirect_to: https://jimmyli.us/writing/cross-site-websocket-hijacking-socketio
 ---
 
 Cross-Site WebSocket Hijacking or (CSWSH), yes the acronym is absurdly long, is a technique where an attacker can hijack a WebSocket on a targetted site and essentially send and receive messages like the victim. In this blog post, I will specifically explore how this can be done with socketio when the requests are not upgraded to actual WebSockets. In addition to explaining how this attack type works, this post will include a specific writeup for Support Chat,  a CTF problem from HacktivityconCTF.

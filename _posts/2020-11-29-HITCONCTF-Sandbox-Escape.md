@@ -4,6 +4,7 @@ title: HITCONCTF - Sandbox Escape
 excerpt: "HITCON CTF is no joke. The challenges were crazy hard and very interesting at the same time. This first writeup will be about oShell which was a sandbox escape. This will not cover the first section of the challenge but will focus more on the sandbox escape using tcpdump and ping."
 categories: [Writeups, HITCONCTF'20]
 tags: [sandbox]
+redirect_to: https://jimmyli.us/writing/hitcon-ctf-sandbox-escape
 ---
 
 HITCON CTF is no joke. The challenges were crazy hard and very interesting at the same time. This first writeup will be about oShell which was a sandbox escape. This will not cover the first section of the challenge but will focus more on the sandbox escape using tcpdump and ping.

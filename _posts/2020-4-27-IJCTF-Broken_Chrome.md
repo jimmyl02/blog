@@ -4,6 +4,7 @@ title: IJCTF - Broken_Chrome
 excerpt: "I didn't have much time to look at this ctf but I was able to solve one web problem. This was interesting to me because I faced some difficulties in getting my payload to work and learned some concepts about the dom."
 categories: [Writeups, IJCTF'20]
 tags: [web]
+redirect_to: https://jimmyli.us/writing/ijctf-broken-chrome
 ---
 
 I didn't have much time to look at this ctf but I was able to solve one web problem. This was interesting to me because I faced some difficulties in getting my payload to work and learned some concepts about the dom.

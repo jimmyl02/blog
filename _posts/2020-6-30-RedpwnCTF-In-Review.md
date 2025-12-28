@@ -4,6 +4,7 @@ title: RedpwnCTF in review
 excerpt: "Over the past week, RedpwnCTF 2020 took place and I was one of the organizers of the event. I would really like to give props to my team members and additional organizers of the contest for putting together such an event."
 categories: [Blog]
 tags: [web, redpwnctf]
+redirect_to: https://jimmyli.us/writing/redpwn-ctf-in-review
 ---
 
 #### Overall thoughts

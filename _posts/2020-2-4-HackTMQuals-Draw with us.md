@@ -4,6 +4,7 @@ title: HackTMQuals - Draw with us
 excerpt: "HackTM challeneges were pretty unique and challenging. I didn't spend much time on the ctf and only was able to solve the first web challenge which exploited unicode and objects in javascript to get the flag."
 categories: [Writeups, HackTMQuals'19]
 tags: [web]
+redirect_to: https://jimmyli.us/writing/hacktm-quals-draw-with-us
 ---
 
 HackTM challeneges were pretty unique and challenging. I didn't spend much time on the ctf and only was able to solve the first web challenge which exploited unicode and objects in javascript to get the flag.
